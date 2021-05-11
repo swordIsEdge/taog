@@ -12,7 +12,7 @@ module.exports = (options, context, api) => {
                     path: "/note/",
                     itemPermalink: "/note/:year/:month/:day/:slug",
                     pagination: {
-                        lengthPerPage: 2,
+                        lengthPerPage: 10,
                     },
                 },
                 {
@@ -22,7 +22,7 @@ module.exports = (options, context, api) => {
                     path: "/blog/",
                     itemPermalink: "/blog/:year/:month/:day/:slug",
                     pagination: {
-                        lengthPerPage: 2,
+                        lengthPerPage: 10,
                     },
                 }
             ],
